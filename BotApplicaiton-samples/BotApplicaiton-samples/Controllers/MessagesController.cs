@@ -12,7 +12,7 @@ namespace BotApplicaiton_samples
     {
         /// <summary>
         /// POST: api/Messages
-        /// Receive a message from a user and reply to it
+        /// Receive a message from a user and reply to  test
         /// </summary>
         public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
         {
